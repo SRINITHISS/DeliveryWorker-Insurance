@@ -193,34 +193,6 @@ gigshield/
 └── README.md
 ```
 
----
-
-## 🗓️ 6-Week Development Plan
-
-### Phase 1 (March 4–20): Ideation & Foundation ✅
-- [x] Persona definition and scenario mapping
-- [x] Weekly premium model design
-- [x] Parametric trigger identification
-- [x] Tech stack selection
-- [ ] Basic project scaffolding (frontend + backend boilerplate)
-- [ ] Mock API structure for weather and platform data
-
-### Phase 2 (March 21 – April 4): Automation & Protection
-- [ ] Worker registration & onboarding flow
-- [ ] Insurance policy creation with weekly premium calculation
-- [ ] AI premium model (XGBoost) — v1
-- [ ] 5 parametric trigger integrations (weather, heat, curfew, outage)
-- [ ] Claims management system
-- [ ] Basic fraud checks (duplicate, GPS validation)
-
-### Phase 3 (April 5–17): Scale & Optimise
-- [ ] Advanced fraud detection (GPS spoofing, behavioral anomaly)
-- [ ] Razorpay test mode payout integration
-- [ ] Worker dashboard (earnings protected, active coverage)
-- [ ] Admin/Insurer dashboard (loss ratios, predictive analytics)
-- [ ] Final pitch deck + 5-min demo video
-
----
 
 ## 🔒 Key Design Principles
 
