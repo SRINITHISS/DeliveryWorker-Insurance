@@ -230,25 +230,4 @@ gigshield/
 4. **WhatsApp-native UX** — Every key action (policy status, claim update, payout confirmation) reachable via WhatsApp message.
 5. **Income-only coverage** — Absolutely no feature creep into health, accident, or vehicle coverage.
 
----
 
-## 👥 Team
-
-| Name | Role |
-|---|---|
-| [Your Name] | Full Stack + AI Lead |
-| [Teammate 2] | Backend + API Integration |
-| [Teammate 3] | ML Model + Fraud Detection |
-| [Teammate 4] | Frontend + UX |
-
----
-
-## 📎 Useful Links
-
-- 🔗 **Repository:** [This Repo]
-- 🎥 **Phase 1 Video:** [Link to be added]
-- 📄 **Problem Statement:** Guidewire DEVTrails 2026
-
----
-
-> *GigShield — Because every delivery deserves a safety net.*
