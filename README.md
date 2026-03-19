@@ -249,7 +249,7 @@ Payout = min(daily_avg_earnings × (hours_affected / work_day_hours), weekly_cov
 
 ## 📁 Repository Structure
 
-```
+
 gigshield/
 ├── frontend/
 ├── backend/
@@ -257,8 +257,6 @@ gigshield/
 ├── mock-apis/
 ├── docs/
 └── README.md
-```md
-
 
 ---
 
