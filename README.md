@@ -246,6 +246,111 @@ Payout = min(daily_avg_earnings × (hours_affected / work_day_hours), weekly_cov
 👉 Privacy-first approach  
 
 ---
+## 🛡️ Adversarial Defense & Anti-Spoofing Strategy
+
+### 🚨 Threat Scenario: Market Crash Attack
+
+A coordinated fraud ring creates multiple fake delivery accounts using GPS spoofing to simulate presence in disruption zones and trigger mass payouts.
+
+👉 Result: Large-scale fraudulent claims that can drain the system’s payout pool.
+
+---
+
+### 🔍 1. Multi-Layer Location Verification
+
+GigShield does not rely on GPS alone.
+
+We cross-verify location using:
+- GPS coordinates from device  
+- IP-based geolocation  
+- Network provider region data  
+- Platform delivery logs (Zomato/Swiggy activity)  
+
+👉 If mismatch detected → claim flagged as suspicious  
+
+---
+
+### 🤖 2. Behavioral Anomaly Detection
+
+AI models detect unusual patterns such as:
+- Multiple users active in the exact same coordinates  
+- Identical login and claim timings  
+- Sudden surge of claims from a single zone  
+
+👉 Each user is assigned an **anomaly score**  
+👉 High score → claim flagged  
+
+---
+
+### 🧾 3. Platform Activity Validation
+
+We validate whether the worker was genuinely active:
+
+- Was the worker online during the disruption?  
+- Were deliveries being accepted or completed?  
+
+👉 No activity = No payout eligibility  
+
+---
+
+### 🔐 4. Device Fingerprinting & Identity Control
+
+To prevent duplicate or fake accounts:
+- Device ID tracking  
+- Phone number + SIM linkage  
+- Payment account (UPI) validation  
+
+👉 Multiple accounts from same device or payment source are blocked  
+
+---
+
+### ⏱️ 5. Cooldown Period & Trust Scoring
+
+- New users cannot claim immediately  
+- A **7-day cooling period** is enforced  
+
+Each worker gets a **Trust Score** based on:
+- Consistent work history  
+- Claim behavior  
+- Platform activity  
+
+👉 Low trust score → stricter validation  
+
+---
+
+### 🌐 6. Fraud Ring Detection (Network-Level Defense)
+
+GigShield identifies coordinated attacks by analyzing:
+
+- Clusters of users from same IP  
+- Same device fingerprints across accounts  
+- High claim density in a short time window  
+
+👉 Entire fraud groups are flagged, not just individuals  
+
+---
+
+### ⚖️ 7. Fairness Protection for Genuine Workers
+
+To avoid penalizing real users:
+
+- Claims are **risk-scored**, not instantly rejected  
+- Borderline cases may undergo delayed verification  
+- Genuine workers still receive payouts with minimal friction  
+
+👉 Balance between **fraud prevention** and **user trust**
+
+---
+
+### 🧠 Final Outcome
+
+GigShield’s defense system ensures:
+- Fraudulent claims are blocked before payout  
+- Coordinated attacks are detected early  
+- Genuine workers are protected and not unfairly rejected  
+
+👉 System remains **secure, scalable, and fair under attack conditions**
+
 
 ## 📁 Repository Structure
 
