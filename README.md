@@ -94,29 +94,30 @@ Worker stays online but earns only ₹200 vs ₹800
 
 ---
 
+
 ## 🔄 Application Workflow
 
-
+```
 [Worker Onboarding]
-↓
+        ↓
 Enter Name, City, Platform (Zomato/Swiggy), Avg. Weekly Earnings
-↓
+        ↓
 AI Risk Profiling (zone, weather history, work pattern)
-↓
+        ↓
 Weekly Premium Quote Generated (₹25 – ₹75/week)
-↓
+        ↓
 Worker Selects Plan → Pays via UPI/wallet (weekly auto-debit)
-↓
+        ↓
 Policy Activated → Real-time disruption monitoring begins
-↓
+        ↓
 [DISRUPTION EVENT DETECTED by API]
-↓
+        ↓
 AI Fraud Check → Location & Activity Validation
-↓
+        ↓
 Claim Auto-Triggered → Payout to UPI within 10 minutes
-↓
+        ↓
 Worker notified via WhatsApp / SMS
-
+```
 
 ---
 
